@@ -1,8 +1,8 @@
-# sens0366
+# sen0366
 Made simple code to test 20hz high Accuracy 80m Laser Sensor Range finder Distance measuring module TTL interface ardunio
 
 
-So this module called **SENS0366**, it is range distance sensor. It should measure distance from 50 to 80m. But in reality I could get **less then 30m**. So real measuring distance around 20m.
+So this module called **SEN0366**, it is range distance sensor. It should measure distance from 50 to 80m. But in reality I could get **less then 30m**. So real measuring distance around 20m.
 
 ![sensor](https://dfimg.dfrobot.com/nobody/wiki/b5412e541833689f75cc2b88c4ea5f5e.png)
 
