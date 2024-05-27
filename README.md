@@ -13,10 +13,13 @@ I did not find good datasheet, there are few usefull links:
 
 With code below, you can simply test your sensor. I have used arduino nano with connected RX and TX pins, to D2 and D3 correspondently. In some datasheets it mensioned that it works from 3.3V only. But I risked and connected it to arduino 5V, and it is works fine. 
 So you can connected your sensor as it is shown.
+
 ![connect1](https://dfimg.dfrobot.com/nobody/wiki/9baa5bf812b40f12da725e18ac77ca5c.png)
+Define software serial, 3 is TX, 2 is RX.
 ![connect2](https://dfimg.dfrobot.com/nobody/wiki/3729ed2e85b73af307bb026255d377d1.png)
 
 Code prints in serial distance, and recieved command with data bit. To set nessasery parameters type corresponding number:
+
 | Variable Name                   | Number | Notes |
 |---------------------------------|--------|-------|
 | singleMeasurement               | 1      |works       |
@@ -46,6 +49,8 @@ Code prints in serial distance, and recieved command with data bit. To set nessa
 | controlLaserOpen                | 25     |works (laser stays ON)      |
 | controlLaserClose               | 26     |works        |
 
+
+Also you can find code in code.ino
 ```c
 /*!
  * @File  DFRobot_IraserSensor.ino
