@@ -18,7 +18,7 @@ So you can connected your sensor as it is shown.
 Define software serial, 3 is TX, 2 is RX.
 ![connect2](https://dfimg.dfrobot.com/nobody/wiki/3729ed2e85b73af307bb026255d377d1.png)
 
-Code prints in serial distance, and recieved command with data bit. To set nessasery parameters type corresponding number:
+Code prints in serial distance, and recieved command with data bit. To set necessary parameters type corresponding number:
 
 | Variable Name                   | Number | Notes |
 |---------------------------------|--------|-------|
