@@ -15,7 +15,6 @@ With code below, you can simply test your sensor. I have used arduino nano with 
 So you can connected your sensor as it is shown.
 
 ![connect1](https://dfimg.dfrobot.com/nobody/wiki/9baa5bf812b40f12da725e18ac77ca5c.png)
-
 Define software serial, 3 is TX, 2 is RX.
 ![connect2](https://dfimg.dfrobot.com/nobody/wiki/3729ed2e85b73af307bb026255d377d1.png)
 
