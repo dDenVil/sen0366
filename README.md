@@ -2,7 +2,7 @@
 Made simple code to test 20hz high Accuracy 80m Laser Sensor Range finder Distance measuring module TTL interface ardunio
 
 
-So this module called **SEN0366**, it is range distance sensor. It should measure distance from 50 to 80m. But in reality I could get **less then 30m**. So real measuring distance around 20m.
+So this module called **SEN0366**, it is range distance sensor. It should measure distance up to 50m (indoor) and 80m (outdoor). But in reality I could get **less then 30m**. So real measuring distance is around 20m.
 
 ![sensor](https://dfimg.dfrobot.com/nobody/wiki/b5412e541833689f75cc2b88c4ea5f5e.png)
 
@@ -11,10 +11,11 @@ I did not find good datasheet, there are few usefull links:
 2. Aliexpress [datasheet](https://www.aliexpress.com/item/1005005384252531.html?spm=a2g0o.order_detail.order_detail_item.3.4a9ff19c70culH), place where I bought it
 3. Other [Github test code](https://github.com/1m2lab/LRMD/blob/main/tests/sen0366.py)
 
-With code below, you can simply test your sensor. I have used arduino nano with connected RX and TX pins, to D2 and D3 correspondently. In some datasheets it mensioned that it works from 3.3V only. But I risked and connected it to arduino 5V, and it is works fine. 
+With code below, you can simply test your sensor. I have used arduino nano with connected RX and TX pins, to D2 and D3 correspondently. In some datasheets it mensioned that it works from 3.3V only. But I connected it to arduino 5V, and it is works fine. 
 So you can connected your sensor as it is shown.
 
 ![connect1](https://dfimg.dfrobot.com/nobody/wiki/9baa5bf812b40f12da725e18ac77ca5c.png)
+
 Define software serial, 3 is TX, 2 is RX.
 ![connect2](https://dfimg.dfrobot.com/nobody/wiki/3729ed2e85b73af307bb026255d377d1.png)
 
