@@ -26,11 +26,11 @@ Code prints in serial distance, and recieved command with data bit. To set nessa
 | continuousMeasurement           | 2      |works        |
 | shutdownDevice                  | 3      |works        |
 | setAddress                      | 4      |idk       |
-| distanceModMinus1               | 5      |idk   (doesn't change distance range 5-10-30-50-80)      |
-| distanceModPlus1                | 6      |idk   (doesn't change distance range 5-10-30-50-80)    |
+| distanceModMinus1               | 5      |idk   (it doesn't change distance range 5-10-30-50-80)      |
+| distanceModPlus1                | 6      |idk   (it doesn't change distance range 5-10-30-50-80)    |
 | timeInterval1S                  | 7      |useless       |
-| setStartPointTop                | 8      |it should meassure distance from the from of the sensor       |
-| setStartPointBackEnds           | 9      |but there are no difference       |
+| setStartPointTop                | 8      |it should meassure distance from the top of the sensor       |
+| setStartPointBackEnds           | 9      |...but there are no difference       |
 | setRange5m                      | 10     |works         |
 | setRange10m                     | 11     |works         |
 | setRange30m                     | 12     |works         |
@@ -49,7 +49,7 @@ Code prints in serial distance, and recieved command with data bit. To set nessa
 | controlLaserOpen                | 25     |works (laser stays ON)      |
 | controlLaserClose               | 26     |works        |
 
-
+After you type any command, you may have to type **2** as well to start continuous measurement. If you have any ideas, how this commands works, let me know)
 Also you can find code in code.ino
 ```c
 /*!
