@@ -288,5 +288,5 @@ switch (input) {
 }
 ```
 
-Hope it will help somebody. It took for me a lot of time, to find this info and test it. I hoped it would meassure distance up to 50m, but with 25m range it is useless for me.
+I hope it will help somebody. It took for me a lot of time, to find this info and test it. I hoped it would meassure distance up to 50m, but with 25m range it is useless for me.
 GL
